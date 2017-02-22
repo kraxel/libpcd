@@ -1,6 +1,6 @@
 Name:         libpcd
 License:      GPLv2+
-Version:      1.0.2
+Version:      1.0.3
 Release:      1%{?dist}
 Summary:      PhotoCD decoding library
 Group:        System Environment/Libraries
@@ -42,6 +42,9 @@ make    prefix=/usr DESTDIR=%{buildroot} \
 %{_includedir}/pcd.h
 
 %changelog
+* Wed Feb 22 2017 Gerd Hoffmann <kraxel@redhat.com> 1.0.3-1
+- specfile: fix source (kraxel@redhat.com)
+
 * Wed Feb 22 2017 Gerd Hoffmann <kraxel@redhat.com> 1.0.2-1
 - new package built with tito
 
