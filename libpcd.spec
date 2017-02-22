@@ -5,7 +5,7 @@ Release:      1%{?dist}
 Summary:      PhotoCD decoding library
 Group:        System Environment/Libraries
 URL:          http://www.kraxel.org/blog/linux/%{name}/
-Source:       http://www.kraxel.org/releases/%{name}/%{name}_%{version}.tar.gz
+Source:       http://www.kraxel.org/releases/%{name}/%{name}-%{version}.tar.gz
 
 %description
 PhotoCD decoding library
