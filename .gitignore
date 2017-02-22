@@ -1,0 +1,4 @@
+libpcd.a
+libpcd.so.*
+*.o
+*.dep
